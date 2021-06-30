@@ -8,7 +8,9 @@ describe("Calculator", () => {
         calculator = new Calculator();
     });
 
-    it("should convert number to empty string", () => {
-        expect(calculator.convertToRomanNumber(1)).toBe('');
-    });
+    it("should return I to 1", () => {
+        expect(calculator.convertToRomanNumber(1)).toBe('I')
+    })
+
+
 });
