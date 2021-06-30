@@ -8,10 +8,6 @@ describe("Calculator", () => {
         calculator = new Calculator();
     });
 
-    it("should return a string", () => {
-        expect(calculator.convertToRomanNumber(3)).toBe('');
-    });
-
     it("should convert 1 to I", () => {
         expect(calculator.convertToRomanNumber(1)).toBe('I');
     });
